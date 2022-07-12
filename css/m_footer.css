@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--dark-blue);
+}
+
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 23px;
+}
+
+.footer-bottom {
+  min-height: 18px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: var(--white);
+}
+
+.footer-bottom__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-bottom__copyright-text {
+  font-size: 13px;
+  line-height: 15px;
+  color: var(--dark-blue);
+  text-transform: uppercase;
+}

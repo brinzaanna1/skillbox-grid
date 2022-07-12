@@ -1,0 +1,39 @@
+:root {
+  /* Шрифты */
+  --regular: 400;
+  --bold: 700;
+
+  --default-fs: 16px;
+  --default-lh: 24px;
+
+  /* Цвета */
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #3f2aff;
+
+  --dark: #333333;
+  --dark-black: #212133;
+  --dark-blue: #2b2e44;
+  --dark-dark: #2f2c45;
+  --dark-rgba: radial-gradient(
+    44.07% 44.07% at 67.78% 55.93%,
+    #555681 0%,
+    #212133 100%
+  );
+
+  --gray: #85859b;
+  --gray-dark: #666666;
+  --gray-light: #edf0f9;
+
+  --hover: violet;
+  --focus: #f6c055;
+  --active: #6da71d;
+
+  /* Transition */
+  --short: 0.3s;
+  --medium-tans: 0.5s;
+
+  /* Размеры */
+  --body-min-width: 320px;
+  --gap: 30px;
+}

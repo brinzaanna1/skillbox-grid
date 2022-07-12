@@ -1,0 +1,30 @@
+.social-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: 188px;
+}
+
+.social-list__link {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: var(--white);
+  outline: none;
+  transition: color var(--short);
+}
+
+.social-list__link:focus:not(:hover):not(:active) {
+  color: var(--focus);
+}
+
+.social-list__link:hover:not(:active) {
+  color: var(--hover);
+}
+
+.social-list__link:active {
+  color: var(--active);
+}
